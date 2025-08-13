@@ -45,7 +45,7 @@ echo -e "${CYAN}📝 Creating launcher script at $LAUNCHER_SCRIPT...${NC}"
 sudo bash -c "cat > $LAUNCHER_SCRIPT" << EOF
 #!/bin/bash
 cd "$IPCHANGER"
-bash ip-changer.sh "\$@"
+bash kali-ip-changer.sh "\$@"
 EOF
 
 # Make the launcher script executable
