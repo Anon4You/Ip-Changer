@@ -17,7 +17,7 @@ if [ -d "/data/data/com.termux/files/usr" ]; then
     LAUNCHER_SCRIPT="$PREFIX/bin/ip-changer"
     MAIN_SCRIPT="ip-changer.sh"
     PACKAGES=("git" "curl" "tor" "privoxy" "netcat-openbsd")
-    PKG_MANAGER="pkg"
+    PKG_MANAGER="apt"
     USE_SUDO=false
 else
     # Debian-based Linux environment
