@@ -23,7 +23,7 @@ A powerful and easy-to-use tool to change your IP address automatically using **
 
 ### Method 1: Using `curl` (Manual Installation)
 
-You can install the **IP Changer** tool with a single command:
+You can install the **IP Changer** tool with a single command [Linux/Termux]:
 
 ```bash
 curl -sL https://github.com/Anon4You/Ip-Changer/raw/main/installer.sh | bash
