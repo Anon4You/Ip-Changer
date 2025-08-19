@@ -1,5 +1,5 @@
 #!/bin/bash
-IPCHANGER="$HOME/.ip-changer"
+IPCHANGER="/usr/share/ip-changer"
 RED="\e[31m"
 GREEN="\e[32m"
 YELLOW="\e[33m"
